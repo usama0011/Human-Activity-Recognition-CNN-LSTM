@@ -1,0 +1,67 @@
+{
+  "model": "lstm",
+  "dataset": "UCI HAR Smartphones (dataset 240)",
+  "trainable_parameters": 19590,
+  "split": "Official subject-disjoint test; validation subjects from official train",
+  "epochs_trained": 15,
+  "seed": 42,
+  "train_windows": 5800,
+  "val_windows": 1552,
+  "test_windows": 2947,
+  "train_subjects": 17,
+  "val_subjects": 4,
+  "test_subjects": 9,
+  "test_accuracy": 0.8724126230064473,
+  "test_macro_f1": 0.8736835668902936,
+  "per_class": {
+    "WALKING": {
+      "precision": 0.906832298136646,
+      "recall": 0.8830645161290323,
+      "f1-score": 0.8947906026557712,
+      "support": 496.0
+    },
+    "WALKING_UPSTAIRS": {
+      "precision": 0.7704626334519573,
+      "recall": 0.9193205944798302,
+      "f1-score": 0.8383349467570184,
+      "support": 471.0
+    },
+    "WALKING_DOWNSTAIRS": {
+      "precision": 0.958974358974359,
+      "recall": 0.8904761904761904,
+      "f1-score": 0.9234567901234568,
+      "support": 420.0
+    },
+    "SITTING": {
+      "precision": 0.7813121272365805,
+      "recall": 0.8004073319755601,
+      "f1-score": 0.7907444668008048,
+      "support": 491.0
+    },
+    "STANDING": {
+      "precision": 0.8476953907815631,
+      "recall": 0.7951127819548872,
+      "f1-score": 0.8205625606207565,
+      "support": 532.0
+    },
+    "LAYING": {
+      "precision": 1.0,
+      "recall": 0.9497206703910615,
+      "f1-score": 0.9742120343839542,
+      "support": 537.0
+    },
+    "accuracy": 0.8724126230064473,
+    "macro avg": {
+      "precision": 0.8775461347635177,
+      "recall": 0.8730170142344269,
+      "f1-score": 0.8736835668902936,
+      "support": 2947.0
+    },
+    "weighted avg": {
+      "precision": 0.8778568555717108,
+      "recall": 0.8724126230064473,
+      "f1-score": 0.8735902370564274,
+      "support": 2947.0
+    }
+  }
+}
